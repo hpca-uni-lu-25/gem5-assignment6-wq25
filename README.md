@@ -1,10 +1,10 @@
 ---
 Author: Jason Lowe-Power
-Editor:  Maryam Babaie, Mahyar Samani, Kaustav Goswami
+Editor:  Maryam Babaie, Mahyar Samani, Kaustav Goswami, Mats Brorsson
 Title: Exploring false sharing with Ruby cache coherence models
 ---
 
-## Exploring false sharing with Ruby cache coherence models -- Due 11:59 pm (PST) *03/15*
+## Exploring false sharing with Ruby cache coherence models
 
 ### Table of Contents
 
@@ -384,8 +384,6 @@ So:
 
 ### Question 9
 
-**NOTE**: This question is for 201A students **only**.
-
 Run using a crossbar latency of 1 cycle and 25 cycles (in addition to the 10 cycles that you have already run).
 
 As you increase the cache-to-cache latency, how does it affect the importance of the different optimizations?
@@ -395,7 +393,7 @@ You can probably get away with just running algorithm 1 and algorithm 6.
 
 ## Submission
 
-You will submit this assignment via GitHub Classroom.
+You will submit this assignment via GitHub Classroom and in Moodle.
 
 1. Accept the assignment by clicking on the link provided in the announcement
 2. Create a Codespace for the assignment on your repository
@@ -409,7 +407,7 @@ script, and the answers to the questions in the `questions.md` file.
 
 Include a detailed explanation of how to use your script and how you use your
 script to generate your answers. Make sure that all paths are relative to this
-directory (`virtual-memory/`).
+directory (`assignment-3-xxx/`), where xxx is the name of your github account.
 
 - Include a description of what the script does
 - Include the path to the script
@@ -421,28 +419,28 @@ directory (`virtual-memory/`).
 ## Grading
 
 - **25 points** gem5 runscript and explanation of how to use your script
-- **50 points** for the questions in the report
+- **50 points** for the questions in the report. The points will be scaled to the scale 0-20.
 
 Points Breakdown:
 
-| #Question       | Points (201A) | Points (154B) |
-|-----------------|--------|---|
-| Question 1	    | 2.5      | 4 |
-| Question 2.a	  | 2.5	     | 4 |
-| Question 2.b	  | 2.5      | 4 |
-| Question 3.a    | 5     | 4 |
-| Question 3.b    | 2.5      | 4 |
-| Question 4.a	  | 2.5      | 2.5 |
-| Question 4.b	  | 2.5      | 2.5 |
-| Question 5	    | 5     | 5 |
-| Question 6	    | 5     | 5 |
-| Question 7	    | 5     | 5 |
-| Question 8.a	  | 5     | 5 |
-| Question 8.b	  | 5     | 5 |
-| Question 9	    | 5     | 0 |
+| #Question       | Points |
+|-----------------|--------|
+| Question 1	  | 2.5    |
+| Question 2.a	  | 2.5	   |
+| Question 2.b	  | 2.5    |
+| Question 3.a    | 5      |
+| Question 3.b    | 2.5    |
+| Question 4.a	  | 2.5    |
+| Question 4.b	  | 2.5    |
+| Question 5	  | 5      |
+| Question 6	  | 5      |
+| Question 7	  | 5      |
+| Question 8.a	  | 5      |
+| Question 8.b	  | 5      |
+| Question 9	  | 5      |
 
 ## Academic misconduct reminder
 
-You are required to work on this assignment in teams. You are only allowed to share your scripts and code with your teammate(s). You may discuss high-level concepts with others in the class but all the work must be completed by your team and your team only.
+You may discuss high-level concepts with others in the class but all the work must be completed by you only.
 
 Remember, DO NOT POST YOUR CODE PUBLICLY ON GITHUB! Any code found on GitHub that is not the base template you are given will be reported to SJA. If you want to sidestep this problem entirely, don’t create a public fork instead create a private repository to store your work.
